@@ -1,0 +1,68 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+     overflow: hidden;
+    background-color: rgb(253, 253, 253);
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: rgb(14, 12, 12);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover:not(.active) {
+    background-color: #c2bdbd;
+  }
+  .active {
+    background-color: #bcccbc;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.left-image {
+    float: left;
+    margin-right: 20px; /* Ajoutez une marge à droite pour éviter que le texte ne soit trop proche de l'image */
+    max-width: 100%; /* La largeur maximale de l'image sera de 100% de la largeur de son conteneur parent */
+    height: 200px; /* Cela permet à l'image de conserver son ratio largeur/hauteur tout en respectant la largeur maximale */
+    border-radius: 8px;
+}
+
+ footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    color: #666;
+   font-size: 14px;
+    }
+    
+ footer a {
+    color: #666;
+   text-decoration: none;
+    margin: 0 10px;
+    }
+    
+footer a:hover {
+     text-decoration: underline;
+    }
+.pee{
+    font-weight: 500;
+    font-size: x-large;
+}
+.right-image{
+    float : right;
+    margin-left: 20px;
+    max-width: 100%;
+    height: 200px;
+    border-radius: 8px;
+}

@@ -1,0 +1,80 @@
+.container {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #fffdfd, #313131);
+    font-family: Arial, sans-serif;
+    color: #7c7878;
+    height: 500px;
+  }
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .h11 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #ffff;
+  }
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #ffff;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    border: none;
+  }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+     overflow: hidden;
+    background-color: rgb(253, 253, 253);
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: rgb(14, 12, 12);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover:not(.active) {
+    background-color: #c2bdbd;
+  }
+  .active {
+    background-color: #bcccbc;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    color: #666;
+   font-size: 14px;
+    }
+    
+ footer a {
+    color: #666;
+   text-decoration: none;
+    margin: 0 10px;
+    }
+    
+footer a:hover {
+     text-decoration: underline;
+    }

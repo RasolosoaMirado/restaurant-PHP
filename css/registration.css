@@ -1,0 +1,53 @@
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: whitesmoke;
+    }
+    h1 {
+        text-align: center;
+        color: blue;
+        font-size: 36px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }   
+    .registration {
+        width: 300px;
+        margin: 0 auto;
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .registration label {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .registration input[type="text"],
+    .registration input[type="email"],
+    .registration input[type="password"] {
+        width: 100%;
+        padding: 5px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+
+    .registration .registration_button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    .registration .registration_button:hover {
+        background-color: #45a049;
+    }
